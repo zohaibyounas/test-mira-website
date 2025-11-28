@@ -164,13 +164,13 @@ const Testing = () => {
               Nachweisbare Qualität: Akzeptierte Testberichte und Zertifikate
             </li>
             <li>Ein Ansprechpartner: Durchgängige technische Betreuung</li>
+            <li>Bereit für die nächste Entwicklungsstufe</li>
           </ul>
           <p className="text-gray-800 leading-relaxed">
-            Bereit für die nächste Entwicklungsstufe: Die Verbindung von
-            MiraElektronikentwicklung und Treo schafft ein Ökosystem, das
-            technische Innovation und geprüfte Qualität vereint. So entstehen
-            robuste, zertifizierbare Produkte – von der ersten Idee bis zur
-            Serienfreigabe.
+            Die Verbindung von MiraElektronikentwicklung und Treo schafft ein
+            Ökosystem, das technische Innovation und geprüfte Qualität vereint.
+            So entstehen robuste, zertifizierbare Produkte – von der ersten Idee
+            bis zur Serienfreigabe.
           </p>
         </section>
       </main>
