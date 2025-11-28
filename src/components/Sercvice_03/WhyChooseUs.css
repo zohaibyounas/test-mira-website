@@ -1,0 +1,113 @@
+/* WhyChooseUs.css */
+
+.why-choose-us {
+    padding: 80px 20px;
+    background-color: #f5f5f5; /* Light background for the section */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+  }
+  
+  .why-choose-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-side {
+    flex: 1;
+  }
+  
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 40px !important;
+    /* margin-left: -80px; */
+  }
+  .section-tag{
+    margin-left: 40px !important;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    color: #666;
+    margin-left: 40px;
+    margin-top: -10px;
+  }
+  
+  .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    margin-right: 30px;
+  }
+  
+  @keyframes blinkEffect {
+    0% {
+      background-color: #BDDDFF; /* Light blue */
+    }
+    50% {
+      background-color: #BDDDFF; /* Darker blue */
+    }
+    100% {
+      background-color: #BDDDFF; /* Light blue again */
+    }
+  }
+  
+  .info-box {
+    background-color: white;
+    padding: 30px;
+    width: 80% !important;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Add initial background color */
+  }
+  
+  .info-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    animation: blinkEffect 0.5s ease-in-out infinite; /* Add the blink animation on hover */
+  }
+  
+  .highlight {
+    background-color: #BDDDFF; /* Light blue background for the highlighted box */
+  }
+  
+  .highlight:hover {
+    animation: blinkEffect 0.5s ease-in-out infinite; /* Same blinking animation for the highlight box */
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #29282B; /* Blue color for titles */
+    margin-bottom: 10px;
+    text-align: left;
+    justify-content: left;
+    margin-top: -10px;
+  }
+  
+  .info-description {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+    justify-content: left;
+    margin-top: 20px;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+  }
+  

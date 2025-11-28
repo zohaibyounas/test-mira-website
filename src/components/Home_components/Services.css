@@ -1,0 +1,230 @@
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 50px 5%;
+  background: #f4f4f4;
+}
+
+/* Services Header */
+.services-header {
+  margin-bottom: 30px;
+}
+
+.services-subtitle {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.services-title {
+  margin-top: 7px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.highlight_01 {
+  color: #007bff;
+}
+
+/* Services Container */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Service Card */
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+/* Expanded Card (Full Width & Full Content) */
+.service-card.expanded {
+  grid-column: 1 / -1;
+  max-height: 1000px;
+  background: #ffffff;
+  transform: scale(1.01);
+  z-index: 5;
+  overflow: visible;
+  padding-bottom: 40px;
+}
+
+.service-card.expanded h3,
+.service-card.expanded p,
+.service-card.expanded .learn-more {
+  color: #222;
+}
+
+.service-card.expanded .learn-more {
+  position: static;
+  margin-top: 10px;
+}
+
+/* Card Title */
+.service-card h3 {
+  font-size: 18px;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Card Description */
+.service-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.4;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Learn More Button */
+.learn-more {
+  font-size: 13px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  transition: 0.3s;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Active Service Card (Blue Background) */
+.service-card.active {
+  background: #1e3a5f;
+  color: white;
+}
+
+.service-card.active h3,
+.service-card.active p,
+.service-card.active .learn-more {
+  color: white;
+}
+
+/* Hover Effect */
+.service-card:hover {
+  background: #1e3a5f;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:hover h3,
+.service-card:hover p,
+.service-card:hover .learn-more {
+  color: white;
+}
+
+/* Responsive Design */
+
+/* 🖥️ Large Screens (2 Cards per Row) */
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .services-title {
+    font-size: 1.8rem;
+  }
+
+  .service-card h3 {
+    font-size: 16px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+}
+
+/* 📱 Tablets & Small Devices (1 Card per Row) */
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .service-card {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .services-title {
+    font-size: 1.6rem;
+  }
+
+  .service-card h3 {
+    font-size: 15px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+  }
+
+  .learn-more {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+/* 📱 Extra Small Devices */
+@media (max-width: 480px) {
+  .services {
+    padding: 40px 3%;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .services-title {
+    font-size: 1.4rem;
+  }
+
+  .service-card h3 {
+    font-size: 14px;
+  }
+
+  .service-card p {
+    font-size: 12px;
+  }
+
+  .learn-more {
+    margin-left: 14px;
+    margin-top: 10px;
+  }
+}

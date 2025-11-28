@@ -1,0 +1,184 @@
+/* CoreIndustries.css */
+
+/* General Styles */
+.core-industries {
+  padding: 80px 20px;
+  background-color: #f5f5f5; /* Light gray background for the section */
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
+.industries-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+/* Illustration Styles */
+.illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: -10%;
+}
+
+.illustration-image {
+  max-width: 60%;
+  height: auto;
+}
+
+/* Industries List Styles */
+.industries-list {
+  flex: 1;
+  text-align: left;
+  padding-left: 40px;
+  margin-left: 40.5px;
+  margin-right: -143.6px;
+  margin-top: 44px;
+}
+
+.industries-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+  
+.industries-description {
+  font-size: 1rem !important;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  color: #666;
+  text-align: justify; /* Justify align the text */
+  margin-right: 0; /* Remove the right margin to allow wrapping */
+  margin-left: 0; /* Optional: Remove the left margin if not needed */
+  overflow-wrap: break-word; /* Ensures long words break and wrap */
+  word-wrap: break-word; /* For older browsers to ensure long words wrap */
+  width: 75%; /* Ensures the container takes full width for text justification */
+}
+
+.industries-items {
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.industries-item {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  margin-right: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens 768px or smaller */
+@media (max-width: 768px) {
+  .industries-content {
+    flex-direction: column; /* Stack the illustration and list vertically */
+    align-items: center; /* Center content on smaller screens */
+  }
+
+  .illustration {
+    margin-left: 0;
+    margin-bottom: 30px; /* Add space between image and text */
+    justify-content: center;
+  }
+
+  .illustration-image {
+    max-width: 80%; /* Reduce the image width on smaller screens */
+  }
+
+  .industries-list {
+    padding-left: 0; /* Remove left padding */
+    margin-left: 0; /* Reset left margin */
+    margin-right: 0; /* Reset right margin */
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  .industries-description {
+    margin-right: 0; /* Remove extra margin on smaller screens */
+    text-align: center; /* Center description text */
+  }
+
+  .industries-heading {
+    font-size: 1.5rem; /* Reduce font size for heading on smaller screens */
+    text-align: center; /* Center the heading */
+  }
+
+  .industries-item {
+    font-size: 0.9rem; /* Reduce font size of list items */
+    justify-content: center; /* Center list items */
+  }
+
+  .dot {
+    margin-right: 8px; /* Adjust dot margin */
+  }
+}
+
+/* For screens 480px or smaller */
+@media (max-width: 480px) {
+  .industries-heading {
+    font-size: 1.5rem !important; /* Further reduce heading font size */
+    margin-left: -230px;
+    justify-content: center ;
+  }
+
+
+  .industries-description {
+    font-size: 1rem !important;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    color: #666;
+    text-align: justify; /* Justify align the text */
+    justify-content: center;
+    margin-right: 0; /* Remove the right margin to allow wrapping */
+    margin-left: -70px !important; /* Optional: Remove the left margin if not needed */
+    overflow-wrap: break-word; /* Ensures long words break and wrap */
+    word-wrap: break-word; /* For older browsers to ensure long words wrap */
+    width: 80% !important; /* Ensures the container takes full width for text justification */
+  }
+  
+
+  .industries-item {
+    font-size: 0.7rem !important; /* Reduce font size for items */
+    margin-top: -10px;
+    margin-bottom: 30px;
+    color: #666;
+    text-align: justify; /* Justify the text */
+    display: inline-block; /* Ensure that the items are inline */
+    white-space: normal; /* Allow wrapping of text if needed */
+    overflow-wrap: break-word; /* Ensures long words break and wrap */
+    word-wrap: break-word; /* For older browsers */
+    width: 90%; /* Ensure the item takes full width available */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+    margin-left: -90px !important; /* Ensure no negative margin */
+    box-sizing: border-box; /* Ensure padding and borders are included in width calculation */
+    line-height: 30px;
+  }
+  
+
+  .illustration-image {
+    max-width: 90%; /* Further reduce image width */
+    justify-items: center !important;
+    margin-left: 50px;
+    margin-top: -100px !important;
+  }
+
+  .dot {
+    width: 8px; /* Make dot smaller */
+    height: 8px; /* Adjust dot size */
+  }
+}

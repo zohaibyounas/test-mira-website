@@ -1,0 +1,176 @@
+/* HeroMain.css */
+
+/* General Styles */
+.blog-section {
+  font-family: "Arial", sans-serif;
+  margin-top: 8% !important;
+  margin-bottom: 1%;
+  max-height: -10%;
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  overflow-y: hidden; /* Hides vertical scrollbar */
+}
+.section-header {
+  /* margin-top: 50px; */
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-bottom: -1%;
+}
+
+.hero-banner {
+  position: relative;
+  background-color: #f4f4f4; /* Light background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.highlighted-text {
+  color: #007bff;
+}
+
+.main-headline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.intro-description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666;
+  margin-top: -10px;
+}
+
+.subscription-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.email-input-field {
+  padding: 12px;
+  font-size: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+  border-color: #007bff;
+  outline: none;
+}
+
+.email-input-field:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.subscribe-button {
+  padding: 12px 30px; /* Adjusted padding for a wider button */
+  font-size: 0.9rem; /* Keep the text size as it is */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 20px; /* Rounded corners, similar to the image */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  height: 40px; /* Fixed height */
+  width: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize; /* Capitalize the first letter only */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Added subtle shadow for better appearance */
+}
+
+.subscribe-button:hover {
+  background-color: #ffff;
+  border-color: #007bff; /* Matching border color on hover */
+  color: #007bff;
+  border-width: 1.5px;
+}
+
+.privacy-text {
+  font-size: 0.9rem;
+  color: #373b42;
+  margin-bottom: 13px;
+  margin-left: 21% !important;
+  width: 600px;
+}
+
+.privacy-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.privacy-text a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens 768px or smaller */
+@media (max-width: 768px) {
+  .main-headline {
+    font-size: 1.5rem; /* Smaller font size for mobile screens */
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .intro-description {
+    font-size: 0.9rem; /* Smaller font size for description */
+  }
+
+  .email-input-field {
+    width: 90%; /* Make input field take up more space */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .subscribe-button {
+    width: 90%; /* Make button full width */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 10px; /* Space between input and button */
+  }
+
+  .privacy-text {
+    margin-left: 0; /* Reset margin for privacy policy */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+/* For screens 480px or smaller */
+@media (max-width: 480px) {
+  .main-headline {
+    font-size: 1.4rem !important; /* Further reduce font size */
+    margin-top: 30px;
+  }
+
+  .intro-description {
+    font-size: 0.8rem;
+  }
+
+  .email-input-field {
+    width: 290%; /* Make the input field full width */
+    font-size: 0.7rem; /* Smaller font size for inputs */
+  }
+
+  .subscribe-button {
+    width: 100%; /* Make button full width */
+    font-size: 0.8rem; /* Smaller font size for buttons */
+    margin-top: 1px;
+  }
+
+  .privacy-text {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    margin-left: -35px;
+  }
+}

@@ -1,0 +1,104 @@
+/* Single Blog Container */
+.single-blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  background-color: #fff;
+  margin-top: 3%;
+}
+
+/* Text Section */
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 55%;
+  padding-right: 40px;
+}
+
+/* Blog Heading */
+.blog-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Blog Subtitle */
+.blog-subtitle {
+  color: #007BFF; /* Accent color like in your image */
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Blog Content */
+.blog-content {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify;
+}
+
+/* Image Section */
+.image-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 40%;
+  position: relative;
+  padding: 20px;
+}
+
+/* Blog Image */
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transform: skewX(-3deg); /* Optional: angle effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Default shadow for image */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0px 0px 40px -2px rgba(0, 123, 255, 0.6); /* Glowing blue effect */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Glowing Effect on Hover */
+.blog-image:hover {
+  box-shadow: 0px 0px 30px 10px rgba(0, 123, 255, 0.6); /* Glowing blue effect */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Section for horizontal image at the bottom */
+.horizontal-image-section {
+  width: 100%;
+  height: 540% !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.horizontal-image {
+  width: 100%;
+  max-width: 1500px; /* Adjust the size as needed */
+  height: 450px;
+  object-fit: contain;
+  border-radius: 4px; /* Optional: rounded corners */
+
+}
+
+
+/* Additional adjustments for responsive layout */
+@media (max-width: 480px) {
+
+  .blog-image{
+    display: none;
+  }
+  .text-section{
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .blog-heading{
+    margin-left: -17px;
+  }
+}

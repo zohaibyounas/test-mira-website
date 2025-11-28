@@ -1,0 +1,222 @@
+/* EmbeddedEngineering.css */
+
+/* General Styles */
+.embedded-engineering {
+  font-family: 'Arial', sans-serif;
+  margin-top: 8% !important; 
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  overflow-y: hidden; /* Hides vertical scrollbar */
+  background-color: #f4f4f4;
+}
+
+.hero-header {
+  position: relative;
+  background-color: #f4f4f4; /* Light background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 0 20px;
+  margin-top: 4%;
+}
+
+.highlight_01 {
+  color: #007bff;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666;
+  margin-top: -10px;
+  justify-content: left;
+  align-items: left;
+  /* text-align: left; */
+}
+
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.email-input {
+  padding: 12px;
+  font-size: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+  border-color: #007bff;
+  outline: none;
+}
+
+.email-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.subscribe-btn {
+  padding: 12px 30px; /* Adjusted padding for a wider button */
+  font-size: 0.9rem; /* Keep the text size as it is */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 20px; /* Rounded corners, similar to the image */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  height: 40px; /* Fixed height */
+  width: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize; /* Capitalize the first letter only */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Added subtle shadow for better appearance */
+}
+
+.subscribe-btn:hover {
+  background-color: #ffff;
+  border-color: #007bff; /* Matching border color on hover */
+  color: #007bff;
+  border-width: 1.5px;
+}
+
+.privacy-policy {
+  font-size: 0.9rem;
+  color: #373B42;
+  margin-bottom: 13px;
+  margin-left: -14%;
+  margin-bottom: 3% !important;
+}
+
+.privacy-policy a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+/* Image Section */
+.image-container {
+  position: relative;
+  width: 100% !important; /* Set width to 100% of the container */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Vertically center the image */
+  height: 400px; /* Set a fixed height for the container */
+}
+
+.image {
+  width: 100%; /* Make the image width 100% to fit the container */
+  height: 100%; /* Ensure the image covers the height of the container */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  object-position: center; /* Keep the image centered within the container */
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens 768px or smaller */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 1.5rem; /* Smaller font size for mobile screens */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Smaller font size for description */
+  }
+
+  .email-input {
+    width: 100%; /* Make input field full width on smaller screens */
+  }
+
+  .subscribe-btn {
+    width: 100%; /* Make button full width on smaller screens */
+    margin-top: 10px; /* Add some space between input and button */
+  }
+
+  .privacy-policy {
+    margin-left: 0; /* Reset margin for privacy policy */
+  }
+}
+
+/* For screens 480px or smaller */
+/* For screens 480px or smaller */
+@media (max-width: 480px) {
+
+  .headline {
+    font-size: 1.4rem !important; /* Further reduce font size for very small screens */
+    margin-top: -100px;
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 0.8rem !important; /* Adjust description font size */
+  }
+.image{
+  display: none;
+}
+  .email-input {
+    width: 100%; /* Make the input field full width */
+    font-size: 0.8rem; /* Smaller font size for inputs */
+  }
+
+  .subscribe-btn {
+    width: 100%; /* Make button full width */
+    font-size: 0.8rem; /* Smaller font size for buttons */
+    margin-top: -1px;
+  }
+
+  .image-container {
+    width: 100%; /* Ensure the image container is responsive */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Vertically center the image */
+    padding-left: 140px;
+    padding-right: -170px !important;
+    padding-top: 10px;
+    margin-left: 100px !important;
+    /* margin-right: -100px !important; */
+    /* padding-right:100px; */
+    max-height: 250px; /* Reduce max height of image on small screens */
+  }
+  
+  .image {
+    width: 100%; /* Make the image responsive and fill container width */
+    max-height: 250px; /* Reduce max height of image on small screens */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+    /* margin-right: -500px !important;
+    margin-left: -100px !important; */
+  }
+
+  .privacy-policy {
+    margin-top: 20px !important;
+    font-size: 0.9rem !important; /* Smaller font size for privacy policy */
+    margin-right: -70px !important;
+    margin-left: 190px !important;
+    /* width: 80%; */
+    /* text-align: center; */
+  }
+
+  .email-input {
+    margin-left: 0 !important;
+    font-size: 0.5rem !important;
+  }
+}

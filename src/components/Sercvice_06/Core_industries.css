@@ -1,0 +1,77 @@
+/* CoreIndustries.css */
+
+.core-industries {
+    padding: 80px 20px;
+    background-color: #f5f5f5; /* Light gray background for the section */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+  }
+  
+  .industries-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-left: -10px; */
+  }
+  
+  .illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+  }
+  
+  .illustration-image {
+    max-width: 60%;
+    height: auto;
+  }
+  
+  .industries-list {
+    flex: 1;
+    text-align: left;
+    padding-left: 40px;
+    margin-left: 40.5px;
+    margin-right: -143.6px;
+    margin-top: 44px;
+  } 
+  
+  .industries-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .industries-description {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    color: #666;
+    text-align: left;
+    margin-right: 18%;
+  }
+  
+  .industries-items {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+   
+  }
+  
+  .industries-item {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff;
+    margin-right: 10px;
+  }
+  

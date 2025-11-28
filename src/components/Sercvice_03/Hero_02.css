@@ -1,0 +1,120 @@
+/* EmbeddedEngineering.css */
+
+.embedded-engineering {
+  font-family: 'Arial', sans-serif;
+  margin-top: 7%;
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  overflow-y: hidden; /* Hides vertical scrollbar */
+}
+
+.hero-header {
+  position: relative;
+  background-color: #f4f4f4; /* Light background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.highlight_01 {
+  color: #007bff;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666;
+  margin-top: -10px;
+}
+
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.email-input {
+  padding: 12px;
+  font-size: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+  border-color: #007bff;
+  outline: none;
+}
+
+.email-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.subscribe-btn {
+  padding: 12px 30px; /* Adjusted padding for a wider button */
+  font-size: 0.9rem; /* Keep the text size as it is */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 20px; /* Rounded corners, similar to the image */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  height: 40px; /* Fixed height */
+  width: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize; /* Capitalize the first letter only */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Added subtle shadow for better appearance */
+}
+
+.subscribe-btn:hover {
+  background-color: #ffff;
+  border-color: #007bff; /* Matching border color on hover */
+  color: #007bff;
+  border-width: 1.5px;
+}
+
+.privacy-policy {
+  font-size: 0.9rem;
+  color: #373B42;
+  margin-bottom: 13px;
+  margin-left: -14%;
+}
+
+.privacy-policy a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+/* Image Section */
+.image-container {
+  position: relative;
+  width: 150% !important; /* Set width to 100% of the container */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden;
+  margin-left: -187px !important;
+}
+
+.image {
+  width: 100%; /* Make the image width 100% to fit on the screen */
+  height: auto;
+  object-fit: cover; /* Ensure the image covers the area properly */
+}
+
