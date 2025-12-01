@@ -12,14 +12,19 @@ const Testing = () => {
       <main className="flex-1 px-6 sm:px-8 lg:px-16 py-12 max-w-6xl mx-auto space-y-12">
         {/* Hero Section */}
         <section className="space-y-4">
-          <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-gray-900">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-gray-900">
             Partnerschaft mit Treo – Mehr Sicherheit. Mehr Geschwindigkeit. Mehr
             Zukunft.
           </h1>
-          {/* <p className="text-lg sm:text-xl text-gray-700 italic">
-            (Stil: exakt wie Mira-EE „Energy-Management-Software“-Seite –
-            sachlich, verständlich, technologisch.)
-          </p> */}
+
+          {/* Treo Image */}
+          <div className="mt-6 mb-8">
+            <img
+              src="/images/tire.png"
+              alt="Partnerschaft mit Treo - Zusammenarbeit zwischen MiraElektronikentwicklung und Treo"
+              className="w-full h-auto max-h-[400px] object-contain rounded-lg shadow-lg"
+            />
+          </div>
         </section>
 
         {/* Introduction */}
@@ -70,6 +75,13 @@ const Testing = () => {
             Ihr Vorteil: Entwicklungsprozesse, die von Beginn an auf
             Zertifizierung ausgelegt sind
           </h2>
+          <div className="mt-6 mb-8">
+            <img
+              src="/images/test.png"
+              alt="Partnerschaft mit Treo - Zusammenarbeit zwischen MiraElektronikentwicklung und Treo"
+              className="w-full h-auto max-h-[400px] object-contain rounded-lg shadow-lg"
+            />
+          </div>
           <p className="text-gray-800 leading-relaxed">
             Durch die enge Abstimmung mit Treo berücksichtigen wir die späteren
             Prüfanforderungen bereits während:
@@ -110,6 +122,13 @@ const Testing = () => {
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
             Engineering + Testing = Höchste Zuverlässigkeit
           </h2>
+          <div className="mt-6 mb-8">
+            <img
+              src="/images/embaded.png"
+              alt="Partnerschaft mit Treo - Zusammenarbeit zwischen MiraElektronikentwicklung und Treo"
+              className="w-full h-auto max-h-[400px] object-contain rounded-lg shadow-lg"
+            />
+          </div>
           <p className="text-gray-800 leading-relaxed">
             Mira bringt ein breites Spektrum an Entwicklungskompetenzen ein:
           </p>
@@ -159,7 +178,7 @@ const Testing = () => {
             </li>
             <li>Transparenz: Klare Test- und Risikoanalysen</li>
             <li>
-              Höhere Effizienz: Weniger Iterationen, schnellere Entscheidungen
+              Höhere Effizienz: Weniger Iterationen, schnelle Entscheidungen
             </li>
             <li>
               Nachweisbare Qualität: Akzeptierte Testberichte und Zertifikate
