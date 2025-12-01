@@ -14,24 +14,70 @@ const TeamSection = () => {
       linkedin:
         "https://www.linkedin.com/in/raza-abbas-4576a0147?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       email: "mailto:raza.abbas@mira-ee.de",
+      showLinkedin: true,
     },
-    // {
-    //   id: 2,
-    //   name: t("Selma Yüceer"),
-    //   role: t("Human Resources Manager"),
-    //   image: "/images/team-2.png",
-    //   linkedin: "https://www.linkedin.com/company/mira-elektronikentwicklung/",
-    //   email: "mailto:nadire.yueceer@mira-ee.de",
-    // },
     {
-      id: 3,
+      id: 2,
       name: t("Karsten Steinhorst"),
       role: t("Vertriebsleiter"),
       image: "/images/custon.jpg",
       linkedin: "https://www.linkedin.com/in/karsten-steinhorst-25970020/",
       email: "mailto:karsten.steinhorst@mira-ee.de",
+      showLinkedin: true,
+    },
+    {
+      id: 3,
+      name: t("Irtaza Madad Naqvi "),
+      role: t("Operations Lead (Management)"),
+      image: "/images/irtaza.jpg",
+      email: "mailto:irtaza.madad@mira-ee.de",
+      showLinkedin: false,
+    },
+    {
+      id: 4,
+      name: t("Muhammad Aqib "),
+      role: t("Senior Embedded Engineer"),
+      image: "/images/aqib.jpg",
+      email: "mailto:mohammad.aqib@mira-ee.de",
+      showLinkedin: false,
+    },
+    {
+      id: 5,
+      name: t("Muhammad Bilal Rasool"),
+      role: t("Senior Software Engineer"),
+      image: "/images/bilal.jpg",
+      email: "mailto:bilal.rasool@mira-ee.de",
+      showLinkedin: false,
+    },
+    {
+      id: 6,
+      name: t("Zohaib Athar "),
+      role: t("Backend Engineer"),
+      image: "/images/zohabathar.jpg",
+      email: "mailto:zohaib.athar@mira-ee.de",
+      showLinkedin: false,
+    },
+    {
+      id: 7,
+      name: t("Munsif Waseem"),
+      role: t("System Security Engineer"),
+      image: "/images/munsif.jpg",
+      email: "mailto:musif.waseem@mira-ee.de",
+      showLinkedin: false,
+    },
+    {
+      id: 8,
+      name: t("Muhammad Sulaiman"),
+      role: t("Embedded Engineer"),
+      image: "/images/sulo.jpg",
+      email: "mailto:muhammad.sulaiman@mira-ee.de",
+      showLinkedin: false,
     },
   ];
+
+  // Split team members for different row layouts
+  const firstRowMembers = teamMembers.slice(0, 2);
+  const remainingMembers = teamMembers.slice(2);
 
   return (
     <section className="text-center py-16 px-4 md:px-8 bg-gray-100 text-black ">
@@ -43,8 +89,9 @@ const TeamSection = () => {
         <span className="text-blue-600">{t("experts")}</span>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-10 mx-auto max-w-6xl">
-        {teamMembers.map((member) => (
+      {/* First Row - 2 columns */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6 mx-auto max-w-4xl">
+        {firstRowMembers.map((member) => (
           <div
             key={member.id}
             className="bg-white rounded-xl p-4 shadow-md hover:-translate-y-1 transition-transform duration-300"
@@ -57,13 +104,39 @@ const TeamSection = () => {
             <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
             <p className="text-sm text-gray-600 mb-3">{member.role}</p>
             <div className="flex justify-center gap-4">
-              <a
-                href={member.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin className="text-blue-600 text-xl hover:text-blue-800 transition" />
+              {member.showLinkedin && (
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="text-blue-600 text-xl hover:text-blue-800 transition" />
+                </a>
+              )}
+              <a href={member.email}>
+                <FaEnvelope className="text-blue-600 text-xl hover:text-blue-800 transition" />
               </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Remaining Rows - 3 columns */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 mx-auto max-w-6xl">
+        {remainingMembers.map((member) => (
+          <div
+            key={member.id}
+            className="bg-white rounded-xl p-4 shadow-md hover:-translate-y-1 transition-transform duration-300"
+          >
+            <img
+              src={member.image}
+              alt={member.name}
+              className="w-full h-[300px] lg:h-[500px] object-cover rounded-md mb-4"
+            />
+            <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
+            <p className="text-sm text-gray-600 mb-3">{member.role}</p>
+            <div className="flex justify-center gap-4">
+              {/* LinkedIn icon removed for these members */}
               <a href={member.email}>
                 <FaEnvelope className="text-blue-600 text-xl hover:text-blue-800 transition" />
               </a>
@@ -79,11 +152,6 @@ const TeamSection = () => {
             alt={t("Avatar 1")}
             className="w-8 h-9 rounded-full border-2 border-white"
           />
-          {/* <img
-            src="/images/team-2.png"
-            alt={t("Avatar 2")}
-            className="w-9 h-9 rounded-full border-2 border-white"
-          /> */}
           <img
             src="/images/custon.jpg"
             alt={t("Avatar 2")}

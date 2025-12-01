@@ -16,10 +16,10 @@ const Testing = () => {
             Partnerschaft mit Treo – Mehr Sicherheit. Mehr Geschwindigkeit. Mehr
             Zukunft.
           </h1>
-          <p className="text-lg sm:text-xl text-gray-700 italic">
+          {/* <p className="text-lg sm:text-xl text-gray-700 italic">
             (Stil: exakt wie Mira-EE „Energy-Management-Software“-Seite –
             sachlich, verständlich, technologisch.)
-          </p>
+          </p> */}
         </section>
 
         {/* Introduction */}
@@ -37,9 +37,10 @@ const Testing = () => {
           </ul>
           <p className="text-gray-800 leading-relaxed">
             Für unsere Kunden entsteht daraus ein zuverlässiger, durchgängiger
-            Entwicklungs- und Zertifizierungsprozess, der Risiken reduziert und
-            die Markteinführung beschleunigt.
+            Entwicklungs- und Zertifizierungsprozess,
           </p>
+          <li className="ml-8">der Risiken reduziert</li>
+          <li className="ml-8">die Markteinführung beschleunigt.</li>
         </section>
 
         {/* Why Treo */}
