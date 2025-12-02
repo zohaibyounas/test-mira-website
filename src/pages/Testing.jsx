@@ -143,11 +143,11 @@ const Testing = () => {
           </h2>
           <div className="mt-6 mb-8">
             <img
-              src="/images/testimg.png"
+              src="/images/newone.png"
               alt={t(
                 "Partnership with Treo - Collaboration between Mira Electronics Development and Treo"
               )}
-              className="w-full h-auto max-h-[500px] object-contain rounded-lg shadow-lg"
+              className="w-full h-auto max-h-[600px] object-cover rounded-lg shadow-lg"
             />
           </div>
           <p className="text-gray-800 leading-relaxed">
