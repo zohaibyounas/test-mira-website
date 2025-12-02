@@ -2364,11 +2364,184 @@ const resources = {
         "Um im Bereich der Elektromobilität oder der Energiespeicherung erfolgreich zu sein, ist es für jedes Unternehmen unerlässlich, moderne BMS-Software und maßgeschneiderte eingebettete Systeme zu implementieren; dies ist keine Option mehr, sondern eine zwingende Notwendigkeit.    Die rasante Entwicklung der Technologie schreitet in großen Schritten voran; nur wer immer die neuesten Fortschritte verfolgt, kann Produkte anbieten, die sowohl wettbewerbsfähig als auch sicher sind.",
       "Mira-ee is your trusted partner for mastering the complex challenges of modern battery technology. We cover everything from the initial idea, through development, to implementation, guaranteeing the success of your project. Contact us to find out how we can optimize the efficiency and safety of your battery systems.":
         "Mira-ee ist Ihr vertrauenswürdiger Partner, um die komplexen Herausforderungen der modernen Batterietechnologie zu meistern.   Alles, von der Idee über die Entwicklung bis zur Umsetzung, wird von uns abgedeckt, um den Erfolg Ihres Projekts zu garantieren.     Kontaktieren Sie uns, um zu erfahren, wie wir die Effizienz und Sicherheit Ihrer Batteriesysteme optimieren können.",
+      "Partnership with Treo – More Security. More Speed. More Future.":
+        "Partnerschaft mit Treo – Mehr Sicherheit. Mehr Geschwindigkeit. Mehr Zukunft.",
+      "Stronger Together: Testing Expertise Meets Engineering Excellence":
+        "Gemeinsam stärker: Prüfkompetenz trifft Engineering-Exzellenz",
+      "The collaboration between Mira Electronics Development and Treo brings together two worlds that complement each other perfectly:":
+        "Die Zusammenarbeit zwischen MiraElektronikentwicklung und Treo verbindet zwei Welten, die sich perfekt ergänzen:",
+      "Accredited testing and inspection procedures on one side –":
+        "akkreditierte Test- und Prüfverfahren auf der einen Seite –",
+      "Modern embedded and safety development on the other.":
+        "moderne Embedded- und Safety-Entwicklung auf der anderen.",
+      "For our customers, this creates a reliable, seamless development and certification process,":
+        "Für unsere Kunden entsteht daraus ein zuverlässiger, durchgängiger Entwicklungs- und Zertifizierungsprozess,",
+      "that reduces risks": "der Risiken reduziert",
+      "and accelerates time-to-market.": "die Markteinführung beschleunigt.",
+      "Why Treo?": "Warum Treo?",
+      "Treo is one of the leading testing companies for:":
+        "Treo ist eines der führenden Testhäuser für:",
+      "EMC and electrical safety": "EMV- und elektrische Sicherheit",
+      "Mechanical & climatic tests": "Mechanische & klimatische Prüfungen",
+      "Vibration and shock tests": "Vibrations- und Schocktests",
+      "Flammability and material tests": "Beflammungs- und Materialprüfungen",
+      "Standards compliance & certification support":
+        "Normkonformität & Zertifizierungsbegleitung",
+      "Through the partnership, this testing expertise flows directly into our development processes.":
+        "Durch die Partnerschaft fließt diese Prüfkompetenz unmittelbar in unsere Entwicklungsprozesse ein.",
+      "Your Advantage: Development Processes Designed for Certification from the Start":
+        "Ihr Vorteil: Entwicklungsprozesse, die von Beginn an auf Zertifizierung ausgelegt sind",
+      "Through close coordination with Treo, we consider the later testing requirements already during:":
+        "Durch die enge Abstimmung mit Treo berücksichtigen wir die späteren Prüfanforderungen bereits während:",
+      "System architecture": "der Systemarchitektur",
+      "Hardware development": "der Hardwareentwicklung",
+      "Functional safety analysis (FMEDA, FTA, HARA)":
+        "der Funktionssicherheitsanalyse (FMEDA, FTA, HARA)",
+      "Software and diagnostic concept": "der Software- und Diagnosekonzeption",
+      "Prototype validation": "der Prototypvalidierung",
+      "Errors that would otherwise occur only in the testing phase are detected early. This saves time, budget, and technical iterations.":
+        "Fehler, die sonst erst in der Testphase auftreten, werden frühzeitig erkannt. Das spart Zeit, Budget und technische Iterationen.",
+      "From Idea to Certified Solution – Seamlessly":
+        "Von der Idee bis zur geprüften Lösung – aus einem Guss",
+      "Faster certifications": "Schnellere Zertifizierungen",
+      "Reduced development risks": "Reduzierte Entwicklungsrisiken",
+      "Optimized hardware designs through pre-compliance analyses":
+        "Optimierte Hardwaredesigns durch Pre-Compliance-Analysen",
+      "Validated safety concepts for demanding industries":
+        "Validierte Sicherheitskonzepte für anspruchsvolle Branchen",
+      "Reproducible quality standards for serial products":
+        "Reproduzierbare Qualitätsstandards für Serienprodukte",
+      "Through the seamless process, customers receive a robust, standards-compliant solution – without media breaks or responsibility gaps.":
+        "Durch den durchgängigen Prozess erhalten Kunden eine robuste, normkonforme Lösung – ohne Medienbrüche oder Verantwortungsgrenzen.",
+      "Engineering + Testing = Maximum Reliability":
+        "Engineering + Testing = Höchste Zuverlässigkeit",
+      "Mira brings a broad range of development competencies:":
+        "Mira bringt ein breites Spektrum an Entwicklungskompetenzen ein:",
+      "Embedded systems": "Embedded systems",
+      "Battery and energy management": "Batterie- und Energiemanagement",
+      "Safety electronics (ISO 26262, IEC 61508)":
+        "Safety-Elektronik (ISO 26262, IEC 61508)",
+      "Sensors & signal processing": "Sensorik & Signalverarbeitung",
+      "Real-time software design": "Real-Time Softwaredesign",
+      "Industrial and automotive technologies":
+        "Industrial- und Automotive-Technologien",
+      "With Treo as an accredited testing partner, we create solutions that not only work – but are officially tested and technically robust.":
+        "Mit Treo als akkreditiertem Testpartner schaffen wir Lösungen, die nicht nur funktionieren – sondern offiziell geprüft und technisch belastbar sind.",
+      "For Industries with the Highest Demands":
+        "Für Branchen mit höchsten Anforderungen",
+      "Battery & Energy Systems": "Batterie- & Energiesysteme",
+      "Industrial and Mechanical Engineering": "Industrie- und Maschinenbau",
+      "Medical-related applications": "Medizintechniknahe Anwendungen",
+      "Aerospace components": "Luft- und Raumfahrtkomponenten",
+      "Wherever standards, safety, and quality are crucial, customers benefit from the combination of engineering and testing lab.":
+        "Überall dort, wo Normen, Sicherheit und Qualität entscheidend sind, profitieren Kunden von der Kombination aus Engineering und Testlabor.",
+      "Your Competitive Advantage": "Ihr Wettbewerbsvorteil",
+      "Planning reliability: Testable designs from the first prototype":
+        "Planungssicherheit: Prüffähige Designs ab dem ersten Prototyp",
+      "Transparency: Clear test and risk analyses":
+        "Transparenz: Klare Test- und Risikoanalysen",
+      "Higher efficiency: Fewer iterations, faster decisions":
+        "Höhere Effizienz: Weniger Iterationen, schnellere Entscheidungen",
+      "Proven quality: Accepted test reports and certificates":
+        "Nachweisbare Qualität: Akzeptierte Testberichte und Zertifikate",
+      "Single point of contact: Continuous technical support":
+        "Ein Ansprechpartner: Durchgängige technische Betreuung",
+      "Ready for the next development stage":
+        "Bereit für die nächste Entwicklungsstufe",
+      "The combination of Mira Electronics Development and Treo creates an ecosystem that unites technical innovation and certified quality. This results in robust, certifiable products – from the first idea to series release.":
+        "Die Verbindung von MiraElektronikentwicklung und Treo schafft ein Ökosystem, das technische Innovation und geprüfte Qualität vereint.So entstehen robuste, zertifizierbare Produkte – von der ersten Idee bis zur Serienfreigabe.",
     },
   },
 
   en: {
     translation: {
+      "The combination of Mira Electronics Development and Treo creates an ecosystem that unites technical innovation and certified quality. This results in robust, certifiable products – from the first idea to series release.":
+        "The combination of Mira Electronics Development and Treo creates an ecosystem that unites technical innovation and certified quality. This results in robust, certifiable products – from the first idea to series release.",
+      "Ready for the next development stage":
+        "Ready for the next development stage",
+      "Single point of contact: Continuous technical support":
+        "Single point of contact: Continuous technical support",
+      "Proven quality: Accepted test reports and certificates":
+        "Proven quality: Accepted test reports and certificates",
+      "Higher efficiency: Fewer iterations, faster decisions":
+        "Higher efficiency: Fewer iterations, faster decisions",
+      "Transparency: Clear test and risk analyses":
+        "Transparency: Clear test and risk analyses",
+      "Planning reliability: Testable designs from the first prototype":
+        "Planning reliability: Testable designs from the first prototype",
+      "Your Competitive Advantage": "Your Competitive Advantage",
+      "Wherever standards, safety, and quality are crucial, customers benefit from the combination of engineering and testing lab.":
+        "Wherever standards, safety, and quality are crucial, customers benefit from the combination of engineering and testing lab.",
+      "Aerospace components": "Aerospace components",
+      "Medical-related applications": "Medical-related applications",
+      "Industrial and Mechanical Engineering":
+        "Industrial and Mechanical Engineering",
+      "Battery & Energy Systems": "Battery & Energy Systems",
+      "For Industries with the Highest Demands":
+        "For Industries with the Highest Demands",
+      "With Treo as an accredited testing partner, we create solutions that not only work – but are officially tested and technically robust.":
+        "With Treo as an accredited testing partner, we create solutions that not only work – but are officially tested and technically robust.",
+      "Industrial and automotive technologies":
+        "Industrial and automotive technologies",
+      "Real-time software design": "Real-time software design",
+      "Sensors & signal processing": "Sensors & signal processing",
+      "Safety electronics (ISO 26262, IEC 61508)":
+        "Safety electronics (ISO 26262, IEC 61508)",
+      "Battery and energy management": "Battery and energy management",
+      "Embedded systems": "Embedded systems",
+      "Mira brings a broad range of development competencies:":
+        "Mira brings a broad range of development competencies:",
+      "Engineering + Testing = Maximum Reliability":
+        "Engineering + Testing = Maximum Reliability",
+      "Through the seamless process, customers receive a robust, standards-compliant solution – without media breaks or responsibility gaps.":
+        "Through the seamless process, customers receive a robust, standards-compliant solution – without media breaks or responsibility gaps.",
+      "Reproducible quality standards for serial products":
+        "Reproducible quality standards for serial products",
+      "Validated safety concepts for demanding industries":
+        "Validated safety concepts for demanding industries",
+      "Optimized hardware designs through pre-compliance analyses":
+        "Optimized hardware designs through pre-compliance analyses",
+      "Reduced development risks": "Reduced development risks",
+      "Faster certifications": "Faster certifications",
+      "From Idea to Certified Solution – Seamlessly":
+        "From Idea to Certified Solution – Seamlessly",
+      "Errors that would otherwise occur only in the testing phase are detected early. This saves time, budget, and technical iterations.":
+        "Errors that would otherwise occur only in the testing phase are detected early. This saves time, budget, and technical iterations.",
+      "Prototype validation": "Prototype validation",
+      "Software and diagnostic concept": "Software and diagnostic concept",
+      "Functional safety analysis (FMEDA, FTA, HARA)":
+        "Functional safety analysis (FMEDA, FTA, HARA)",
+      "System architecture": "System architecture",
+      "Hardware development": "Hardware development",
+      "Through close coordination with Treo, we consider the later testing requirements already during:":
+        "Through close coordination with Treo, we consider the later testing requirements already during:",
+      "Your Advantage: Development Processes Designed for Certification from the Start":
+        "Your Advantage: Development Processes Designed for Certification from the Start",
+      "Through the partnership, this testing expertise flows directly into our development processes.":
+        "Through the partnership, this testing expertise flows directly into our development processes.",
+      "Standards compliance & certification support":
+        "Standards compliance & certification support",
+      "Flammability and material tests": "Flammability and material tests",
+      "Vibration and shock tests": "Vibration and shock tests",
+      "Mechanical & climatic tests": "Mechanical & climatic tests",
+      "EMC and electrical safety": "EMC and electrical safety",
+      "Treo is one of the leading testing companies for:":
+        "Treo is one of the leading testing companies for:",
+      "Why Treo?": "Why Treo?",
+      "and accelerates time-to-market.": "and accelerates time-to-market.",
+      "that reduces risks": "that reduces risks",
+      "For our customers, this creates a reliable, seamless development and certification process,":
+        "For our customers, this creates a reliable, seamless development and certification process,",
+      "Modern embedded and safety development on the other.":
+        "Modern embedded and safety development on the other.",
+      "Accredited testing and inspection procedures on one side –":
+        "Accredited testing and inspection procedures on one side –",
+      "The collaboration between Mira Electronics Development and Treo brings together two worlds that complement each other perfectly:":
+        "The collaboration between Mira Electronics Development and Treo brings together two worlds that complement each other perfectly:",
+      "Stronger Together: Testing Expertise Meets Engineering Excellence":
+        "Stronger Together: Testing Expertise Meets Engineering Excellence",
+      "Partnership with Treo – More Security. More Speed. More Future.":
+        "Partnership with Treo – More Security. More Speed. More Future.",
       "Mira-ee is your trusted partner for mastering the complex challenges of modern battery technology. We cover everything from the initial idea, through development, to implementation, guaranteeing the success of your project. Contact us to find out how we can optimize the efficiency and safety of your battery systems.":
         "Mira-ee is your trusted partner for mastering the complex challenges of modern battery technology. We cover everything from the initial idea, through development, to implementation, guaranteeing the success of your project. Contact us to find out how we can optimize the efficiency and safety of your battery systems.",
       "For any company to be successful in the field of electromobility or energy storage, implementing modern BMS software and custom-tailored embedded systems is essential; it is no longer an option but an imperative. Technology is advancing at a rapid pace; only those who continuously track the latest advancements can offer products that are both competitive and safe.":
