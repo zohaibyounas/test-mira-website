@@ -131,8 +131,9 @@ const TeamSection = () => {
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-[300px] lg:h-[500px] object-cover rounded-md mb-4"
+              className="w-full h-[300px] lg:h-[500px] rounded-md mb-4 object-contain image-rendering-crisp"
             />
+
             <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
             <p className="text-sm text-gray-600 mb-3">{member.role}</p>
             <div className="flex justify-center gap-4">

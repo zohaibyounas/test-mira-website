@@ -22,15 +22,15 @@ const Testing = () => {
           </h1>
 
           {/* Treo Image */}
-          <div className="mt-6 mb-8">
+          {/* <div className="mt-6 mb-8">
             <img
-              src="/images/update.png"
+              src="/images/testimg.png"
               alt={t(
                 "Partnership with Treo - Collaboration between Mira Electronics Development and Treo"
               )}
-              className="w-full h-auto max-h-[250px] object-contain rounded-lg shadow-lg mt-6"
+              className="w-full h-auto max-h-[600px] object-contain rounded-lg shadow-lg mt-6"
             />
-          </div>
+          </div> */}
         </section>
 
         {/* Introduction */}
@@ -143,11 +143,11 @@ const Testing = () => {
           </h2>
           <div className="mt-6 mb-8">
             <img
-              src="/images/embaded.png"
+              src="/images/testimg.png"
               alt={t(
                 "Partnership with Treo - Collaboration between Mira Electronics Development and Treo"
               )}
-              className="w-full h-auto max-h-[400px] object-contain rounded-lg shadow-lg"
+              className="w-full h-auto max-h-[500px] object-contain rounded-lg shadow-lg"
             />
           </div>
           <p className="text-gray-800 leading-relaxed">
