@@ -1,7 +1,7 @@
 import React from "react";
 
-const Bms = () => {
+const EmbeddedSystems = () => {
   return <div>Coming soon</div>;
 };
 
-export default Bms;
+export default EmbeddedSystems;
