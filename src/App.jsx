@@ -26,7 +26,7 @@ import Blog5 from "./pages/Blog5";
 import Blog6 from "./pages/Blog6";
 import Partnership from "./pages/Partnership";
 import Testing from "./pages/Testing";
-import Automotive from "./testing/automotive";
+import Automotive from "./testing/Automotive";
 function App() {
   // eslint-disable-next-line no-unused-vars
   const { t } = useTranslation();
