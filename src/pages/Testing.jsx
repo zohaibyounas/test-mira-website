@@ -2,9 +2,49 @@ import React from "react";
 import { useTranslation } from "react-i18next"; // for translation
 import Navbar from "../components/Navbar"; // adjust path if needed
 import Footer from "../components/Footer"; // adjust path if needed
+import { FaCar, FaMicrochip, FaShieldAlt, FaBatteryFull } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Testing = () => {
   const { t } = useTranslation();
+  const testingServices = [
+    {
+      id: 1,
+      title: t("Unsere Automotive Testing Dienstleistungen "),
+      icon: <FaCar />,
+      description: t(
+        "Wir bieten umfassende Testlösungen für die Automobilindustrie, um die Sicherheit, Zuverlässigkeit und Performance von Fahrzeugen und Komponenten zu gewährleisten. Von Hardware-Tests über Softwarevalidierung bis hin zu vollständigen System- und Integrationstests – wir liefern skalierbare, effiziente und präzise Testservices."
+      ),
+      link: "/Automotive-Testing",
+    },
+    {
+      id: 2,
+      title: t("Embedded Systems Testing"),
+      icon: <FaMicrochip />,
+      description: t(
+        "Ganzheitliche Tests für Embedded Software und Hardware – funktional, echtzeitfähig und normkonform für Automotive und Industrie."
+      ),
+      link: "/testing/embedded-systems",
+    },
+    {
+      id: 3,
+      title: t("Cyber Security Penetration Testing"),
+      icon: <FaShieldAlt />,
+      description: t(
+        "Professionelle Penetrationstests zur Identifikation von Schwachstellen in IT-, OT- und Embedded-Systemen."
+      ),
+      link: "/testing/cyber-security",
+    },
+    {
+      id: 4,
+      title: t("Battery Management System Testing"),
+      icon: <FaBatteryFull />,
+      description: t(
+        "Validierung und Absicherung moderner Battery Management Systeme für Automotive- und E-Mobility-Anwendungen."
+      ),
+      link: "/testing/bms",
+    },
+  ];
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-900 mt-12">
@@ -20,6 +60,33 @@ const Testing = () => {
               "Partnership with Treo – More Security. More Speed. More Future."
             )}
           </h1>
+          {/* Testing Services Cards */}
+          <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-24">
+            {testingServices.map((service) => (
+              <Link
+                key={service.id}
+                to={service.link}
+                className="group block bg-white border border-gray-200 rounded-2xl p-6 shadow-sm transition-all duration-300 
+             hover:bg-blue-600 hover:text-white text-black"
+              >
+                <div className="text-3xl mb-4 transition-colors duration-300 group-hover:text-white text-blue-500">
+                  {service.icon}
+                </div>
+
+                <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-white">
+                  {service.title}
+                </h3>
+
+                <p className="mt-3 text-sm leading-relaxed transition-colors duration-300 group-hover:text-white text-black">
+                  {service.description}
+                </p>
+
+                <span className="inline-block mt-4 text-sm font-medium transition-colors duration-300 group-hover:text-white">
+                  Mehr erfahren →
+                </span>
+              </Link>
+            ))}
+          </section>
 
           {/* Treo Image */}
           {/* <div className="mt-6 mb-8">

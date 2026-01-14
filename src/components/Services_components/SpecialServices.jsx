@@ -14,7 +14,7 @@ const SpecialServices = () => {
       title: t("Battery Management Software Development"),
       icon: <FaBug />,
       description: t(
-        "Advanced Battery Management Software (BMS) solutions for automotive, e-mobility, and industrial applications ensure precise cell monitoring, charge/discharge control, temperature regulation, and safety management. Through innovative testing strategies, these systems deliver scalability, energy efficiency, and long-term reliability for sustainable energy management."
+        "Advanced Battery Management Software (EMS) solutions for automotive, e-mobility, and industrial applications ensure precise cell monitoring, charge/discharge control, temperature regulation, and safety management. Through innovative testing strategies, these systems deliver scalability, energy efficiency, and long-term reliability for sustainable energy management."
       ),
       link: "/Battery-Management-Software-Entwicklung", // Unique link for each service
     },

@@ -26,7 +26,7 @@ import Blog5 from "./pages/Blog5";
 import Blog6 from "./pages/Blog6";
 import Partnership from "./pages/Partnership";
 import Testing from "./pages/Testing";
-
+import Automotive from "./testing/automotive";
 function App() {
   // eslint-disable-next-line no-unused-vars
   const { t } = useTranslation();
@@ -109,6 +109,7 @@ function App() {
         <Route path="/Blog4" element={<Blog4 />} />
         <Route path="/Blog5" element={<Blog5 />} />
         <Route path="/Blog6" element={<Blog6 />} />
+        <Route path="/Automotive-Testing" element={<Automotive />} />
       </Routes>
     </>
   );
