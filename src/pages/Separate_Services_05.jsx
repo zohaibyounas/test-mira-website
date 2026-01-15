@@ -28,7 +28,7 @@ const Service = () => {
         />
         <link
           rel="canonical"
-          href="https://mira-ee.de/Energy-Management-Software-(EMS)-Entwicklung"
+          href="https://mira-ee.de/Software-Defined-Vehicle-Entwicklung-für-Automotive-OEMs"
         />
       </Helmet>
 

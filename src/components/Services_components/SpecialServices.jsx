@@ -14,19 +14,19 @@ const SpecialServices = () => {
       title: t("Battery Management Software Development"),
       icon: <FaBug />,
       description: t(
-        "Advanced Battery Management Software (EMS) solutions for automotive, e-mobility, and industrial applications ensure precise cell monitoring, charge/discharge control, temperature regulation, and safety management. Through innovative testing strategies, these systems deliver scalability, energy efficiency, and long-term reliability for sustainable energy management."
+        "Advanced Battery Management Software (BMS/EMS) solutions for automotive, e-mobility, and industrial applications ensure precise cell monitoring, charge/discharge control, temperature regulation, and safety management. Through innovative testing strategies, these systems deliver scalability, energy efficiency, and long-term reliability for sustainable energy management."
       ),
       link: "/Battery-Management-Software-Entwicklung", // Unique link for each service
     },
 
     {
       id: 2,
-      title: t("Energy Management Software (EMS) Development"),
+      title: t("Software-Defined-Vehicle-Entwicklung für Automotive-OEMs"),
       icon: <FaCode />,
       description: t(
-        "We provide advanced Energy Management Software (EMS) for industrial, building, microgrid, and e-mobility systems. Our solutions include peak shaving, load management, energy forecasting, storage and PV optimization, as well as e-mobility management. We ensure secure integration, ISO 50001 compliance, and customized solutions for sustainable, efficient energy systems."
+        "SDV-Transformation strategisch, sicher und serienreif umsetzen Die Transformation zum Software Defined Vehicle ist für Automotive-OEMs kein Technologieprojekt, sondern eine strategische Weichenstellung. Software entscheidet über Innovationsgeschwindigkeit, Updatefähigkeit, Sicherheit und den wirtschaftlichen Erfolg über den gesamten Fahrzeuglebenszyklus."
       ),
-      link: "/Energy-Management-Software-(EMS)-Entwicklung", // Unique link for each service
+      link: "/Software-Defined-Vehicle-Entwicklung-für-Automotive-OEMs", // Unique link for each service
     },
 
     {

@@ -11,20 +11,37 @@ const EmbeddedEngineering = () => {
           {/* Text Content */}
           <div className="w-full lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-              {t("Energy Management Software (EMS) Development")}{" "}
-              <span className="text-blue-600">{t("")}</span>{" "}
-              {/* <span className="text-blue-600">{t("Embedded Systems")}</span> */}
+              {t("Software-Defined-Vehicle-Entwicklung für Automotive-OEMs")}{" "}
+              <span className="text-blue-600">{t("")}</span>
             </h1>
+
             <p className="text-base sm:text-lg text-gray-600">
               {t(
-                "Development of high-performance Energy Management Software (EMS) – from real-time data acquisition to optimized control and reliable diagnostics. Our solutions provide scalable load and energy data management for industry, buildings, microgrids, and e-mobility infrastructure."
+                "Mira Elektronikentwicklung unterstützt OEMs dabei, diese Transformation beherrschbar und skalierbar umzusetzen. Wir entwickeln serienreife, sichere und updatefähige SDV-Architekturen, die sich nahtlos in bestehende Plattformen integrieren lassen – ohne Risiken für Qualität, Compliance oder Time-to-Market."
               )}
             </p>
-            <p className="text-base sm:text-lg text-gray-600">
-              {t(
-                "With modern methods, we develop EMS that reduces peak loads (peak shaving), enables flexible load management, and supports grid services such as frequency control/regulating power. Measurement data from meters, PV systems, storage units, charging points, and production lines are securely collected, analyzed, and condensed into automated schedules."
-              )}
-            </p>
+
+            {/* Fokus List */}
+            <div>
+              <h2 className="text-xl font-semibold text-gray-800 mb-2">
+                {t("Unser Fokus liegt auf:")}
+              </h2>
+              <ul className="list-disc list-inside space-y-1 text-gray-600">
+                <li>{t("Reduktion von Systemkomplexität")}</li>
+                <li>{t("Absicherung von Safety & Security")}</li>
+                <li>{t("Serienreife statt Prototypen")}</li>
+                <li>
+                  {t(
+                    "Nachhaltiger Software-Wertschöpfung über den Lebenszyklus"
+                  )}
+                </li>
+              </ul>
+              <p className="text-gray-600 mt-2">
+                {t(
+                  "So ermöglichen wir OEMs, SDV-Strategien verlässlich, wirtschaftlich und zukunftssicher in die Serie zu bringen."
+                )}
+              </p>
+            </div>
 
             {/* Subscribe Section */}
             <div className="flex flex-col sm:flex-row items-center gap-4">

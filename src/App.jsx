@@ -27,6 +27,9 @@ import Blog6 from "./pages/Blog6";
 import Partnership from "./pages/Partnership";
 import Testing from "./pages/Testing";
 import Automotive from "./testing/Automotive";
+import EmbeddedSystems from "./testing/EmbeddedSystems";
+import CyberSecurity from "./testing/CyberSecurity";
+import Bms from "./testing/bms";
 function App() {
   // eslint-disable-next-line no-unused-vars
   const { t } = useTranslation();
@@ -95,7 +98,7 @@ function App() {
           element={<Separate_Services_04 />}
         />
         <Route
-          path="/Energy-Management-Software-(EMS)-Entwicklung"
+          path="/Software-Defined-Vehicle-Entwicklung-für-Automotive-OEMs"
           element={<Separate_Services_05 />}
         />
         <Route
@@ -110,6 +113,12 @@ function App() {
         <Route path="/Blog5" element={<Blog5 />} />
         <Route path="/Blog6" element={<Blog6 />} />
         <Route path="/Automotive-Testing" element={<Automotive />} />
+        <Route path="/Embedded-Systems-Testing" element={<EmbeddedSystems />} />
+        <Route
+          path="/Cyber-Security-Penetration-Testing"
+          element={<CyberSecurity />}
+        />
+        <Route path="/Battery-Management-System-Testing" element={<Bms />} />
       </Routes>
     </>
   );

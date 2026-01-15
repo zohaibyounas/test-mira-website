@@ -22,27 +22,27 @@ const Testing = () => {
       title: t("Embedded Systems Testing"),
       icon: <FaMicrochip />,
       description: t(
-        "Ganzheitliche Tests für Embedded Software und Hardware – funktional, echtzeitfähig und normkonform für Automotive und Industrie."
+        "sichere und serienreife Embedded-Systeme effizient umzusetzen. Entwicklung und Absicherung zuverlässiger Embedded-Systeme – von der frühen Softwarevalidierung bis zur System- und Hardwareprüfung. Unsere Embedded-Testing-Lösungen gewährleisten funktionale Sicherheit, Echtzeitfähigkeit und höchste Qualität für Automotive-, Industrie- und E-Mobility-Anwendungen."
       ),
-      link: "/testing/embedded-systems",
+      link: "/Embedded-Systems-Testing",
     },
     {
       id: 3,
       title: t("Cyber Security Penetration Testing"),
       icon: <FaShieldAlt />,
       description: t(
-        "Professionelle Penetrationstests zur Identifikation von Schwachstellen in IT-, OT- und Embedded-Systemen."
+        "⦁	Durchführung professioneller Cyber-Sicherheitsanalysen und Penetrationstests – von der Identifikation potenzieller Schwachstellen bis zur gezielten Angriffssimulation. Unsere Leistungen unterstützen Unternehmen dabei, IT-, OT- und Embedded-Systeme wirksam vor Cyberbedrohungen zu schützen."
       ),
-      link: "/testing/cyber-security",
+      link: "/Cyber-Security-Penetration-Testing",
     },
     {
       id: 4,
       title: t("Battery Management System Testing"),
       icon: <FaBatteryFull />,
       description: t(
-        "Validierung und Absicherung moderner Battery Management Systeme für Automotive- und E-Mobility-Anwendungen."
+        "Absicherung und Validierung leistungsfähiger Battery Management Systeme (BMS) – von der frühen Funktionsprüfung bis zur System- und Serienvalidierung. Unsere Testlösungen stellen sicher, dass BMS zuverlässig, sicher und normkonform in Automotive-, E-Mobility- und Industrieanwendungen eingesetzt werden können."
       ),
-      link: "/testing/bms",
+      link: "/Battery-Management-System-Testing",
     },
   ];
 
@@ -61,32 +61,6 @@ const Testing = () => {
             )}
           </h1>
           {/* Testing Services Cards */}
-          <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-24">
-            {testingServices.map((service) => (
-              <Link
-                key={service.id}
-                to={service.link}
-                className="group block bg-white border border-gray-200 rounded-2xl p-6 shadow-sm transition-all duration-300 
-             hover:bg-blue-600 hover:text-white text-black"
-              >
-                <div className="text-3xl mb-4 transition-colors duration-300 group-hover:text-white text-blue-500">
-                  {service.icon}
-                </div>
-
-                <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-white">
-                  {service.title}
-                </h3>
-
-                <p className="mt-3 text-sm leading-relaxed transition-colors duration-300 group-hover:text-white text-black">
-                  {service.description}
-                </p>
-
-                <span className="inline-block mt-4 text-sm font-medium transition-colors duration-300 group-hover:text-white">
-                  Mehr erfahren →
-                </span>
-              </Link>
-            ))}
-          </section>
 
           {/* Treo Image */}
           {/* <div className="mt-6 mb-8">
@@ -99,7 +73,32 @@ const Testing = () => {
             />
           </div> */}
         </section>
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          {testingServices.map((service) => (
+            <Link
+              key={service.id}
+              to={service.link}
+              className="group block bg-white border border-gray-200 rounded-2xl p-6 shadow-sm transition-all duration-300 
+             hover:bg-blue-600 hover:text-white text-black"
+            >
+              <div className="text-3xl mb-4 transition-colors duration-300 group-hover:text-white text-blue-500">
+                {service.icon}
+              </div>
 
+              <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-white">
+                {service.title}
+              </h3>
+
+              <p className="mt-3 text-sm leading-relaxed transition-colors duration-300 group-hover:text-white text-black">
+                {service.description}
+              </p>
+
+              <span className="inline-block mt-4 text-sm font-medium transition-colors duration-300 group-hover:text-white">
+                Mehr erfahren →
+              </span>
+            </Link>
+          ))}
+        </section>
         {/* Introduction */}
         <section className="space-y-6">
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
