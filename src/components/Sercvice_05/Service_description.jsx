@@ -13,34 +13,34 @@ const EngineeringServices = () => {
           <p className="text-blue-500 text-lg mb-4">{t("Our Services")}</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight mb-6">
             <span className="text-gray-800">
-              {t("Our EMS Engineering Services")}
+              {t("Unsere SDV-Ingenieurdienstleistungen")}
             </span>
           </h2>
           <p className="text-gray-600 mb-4">
             {t(
-              "We develop customized Energy Management Systems (EMS) for industry, buildings, microgrids, and e-mobility infrastructure. From secure data acquisition to peak shaving and load management, all the way to cloud monitoring – we deliver scalable, secure, and efficient solutions."
+              "Wir bieten umfassende Ingenieurdienstleistungen für Software-Defined Vehicles, von der Systemarchitektur über Embedded-Software-Entwicklung bis zur Integration kompletter Fahrzeugplattformen. Unsere Experten entwickeln leistungsfähige Steuergeräte-Software, Middleware-Komponenten und Fahrzeugservices für Automotive-OEMs. Mit Fokus auf Echtzeitfähigkeit, Skalierbarkeit und Sicherheit begleiten wir den gesamten Produktlebenszyklus.",
             )}
           </p>
-          <p className="text-gray-600 mb-3">{t("Focus Areas:")}</p>
+          {/* <p className="text-gray-600 mb-3">{t("Focus Areas:")}</p> */}
 
           {/* Focus Area Details */}
           <p className="text-gray-600 mb-3">
             {t(
-              "High-Performance EMS Platforms: Real-time acquisition of energy, power, and tariff data; integration of PV systems, storage units, and charging points; reliable control loops for energy flow and priorities."
+              "Unsere Leistungen umfassen die Entwicklung von Fahrzeugdiensten, Diagnose-Funktionen, Sicherheitsmechanismen und OTA-Update-Systemen. Durch modellbasierte Entwicklung, automatisierte Tests sowie HIL/SIL-Simulationen stellen wir höchste Qualitäts- und Sicherheitsstandards sicher und verkürzen die Time-to-Market erheblich.",
             )}
           </p>
           <p className="text-gray-600 mb-3">
             {t(
-              "Intelligent Forecasting & Real-Time Optimization: Load/production forecasts, dynamic schedule and tariff optimization, load shifting, and peak shaving, including fallback strategies."
+              "Zusätzlich bieten wir modulare Integrations- und Prototyping-Services für zentrale Fahrzeugrechner und Domain-Controller. Unser Team kombiniert Fahrzeugvernetzung, Datenmanagement und Cloud-Anbindung, um SDV-Systeme effizient in bestehende OEM-Infrastrukturen einzubetten.",
             )}
           </p>
           <p className="text-gray-600 mb-3">
             {t(
-              "Tailor-Made Edge & Cloud Architectures: Industrial gateways and secure interfaces (MQTT, Modbus/TCP, OPC UA, OCPP, REST), hybrid on-prem/cloud setups, role-based access control, and audit-capable logging."
+              "Mit unseren SDV-Ingenieurdienstleistungen profitieren Automotive-OEMs von skalierbaren, sicheren und zukunftsfähigen Fahrzeugplattformen. Wir ermöglichen schnelle Innovation, langfristige Wartbarkeit und kontinuierliche Software-Weiterentwicklung über den gesamten Fahrzeuglebenszyklus.",
             )}
           </p>
           <p className="text-gray-600 mb-6">
-            {t("Digital Transformation in Energy Management")}
+            {/* {t("Digital Transformation in Energy Management")} */}
           </p>
 
           <NavLink

@@ -19,11 +19,13 @@ const CoreIndustries = () => {
         {/* Right side: Description and List */}
         <div className="flex-1 text-left mt-10 md:mt-0 md:pl-10">
           <h2 className="text-3xl font-bold mb-5 text-gray-800">
-            {t("Our Technology Stack for Energy Management Software (EMS)")}
+            {t(
+              "Unser Technologie‑Stack für Software-Defined-Vehicle-Entwicklung",
+            )}
           </h2>
           <p className="text-base text-gray-600 mb-8 md:mr-20">
             {t(
-              "Each component is carefully selected to ensure real-time capability, security, and efficiency in EMS projects – from data acquisition to optimization and visualization. Developed by MiraElektronikentwicklung."
+              " Jede Komponente ist bewusst gewählt, um Echtzeitfähigkeit, Sicherheit und Effizienz in SDV-Projekten zu gewährleisten – von der Fahrzeugsteuerung bis zur OTA-Diagnose. Entwickelt von Mira Elektronikentwicklung speziell für Automotive-OEMs.",
             )}
           </p>
 
@@ -32,51 +34,51 @@ const CoreIndustries = () => {
               <span className="w-2.5 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
                 <b>{t("Programming Languages")}:</b>{" "}
-                {t("Python, TypeScript/Node.js, Go, C/C++ (for edge/gateways)")}
+                {t("C, C++, Rust, Python (Tests, Simulation, Tooling,")}
               </span>
             </li>
             <li className="flex items-start text-gray-800">
               <span className="w-3.5 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
-                <b>{t("Runtime & platforms")}:</b>{" "}
+                <b>{t("Betriebssysteme")}:</b>{" "}
                 {t(
-                  "Linux (server/edge), containerization & orchestration (Docker/Kubernetes), RTOS for gateways"
+                  " AUTOSAR Adaptive/Classic, Linux, QNX, Zephyr, Bare-Metal (RT-kritische Steuerungen)",
                 )}
               </span>
             </li>
             <li className="flex items-start text-gray-800">
               <span className="w-3.5 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
-                <b>{t("Data storage")}:</b>{" "}
+                <b>{t("Hardwareplattformen")}:</b>{" "}
                 {t(
-                  "time series database (TSDB), relational SQL database, key-value cache, object storage (raw data/logs)"
+                  "ARM-Cortex-MCUs, funktional sichere MCUs (ASIL-D), GPUs & SoCs für ADAS/Infotainment, Vehicle Network Gateways",
                 )}
               </span>
             </li>
             <li className="flex items-start text-gray-800">
               <span className="w-4 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
-                <b>{t("Communication & interfaces")}:</b>{" "}
+                <b>{t("Kommunikationsprotokolle")}:</b>{" "}
                 {t(
-                  "MQTT, Modbus/TCP, OPC UA, OCPP (charging infrastructure), IEC 61850, REST/GraphQL, WebSockets"
+                  "CAN/CAN-FD, Automotive Ethernet (TSN), FlexRay, LIN, MOST, SOME/IP, MQTT für Cloud-Integration",
                 )}
               </span>
             </li>
             <li className="flex items-start text-gray-800">
               <span className="w-3 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
-                <b>{t("Messaging & streaming")}:</b>{" "}
+                <b>{t(" Werkzeuge & Entwicklung")}:</b>{" "}
                 {t(
-                  "message broker (MQTT/AMQP), event streaming for high data throughput"
+                  " JTAG/SWD, Logic-Analyzer & Oszilloskop, Git & CI/CD, automatisierte Tests, modellbasierte Entwicklung/HIL-/SIL-Simulation, OTA-Update-Frameworks",
                 )}
               </span>
             </li>
             <li className="flex items-start text-gray-800">
               <span className="w-4 h-2.5 bg-blue-500 rounded-full mr-3 mt-2"></span>
               <span>
-                <b>{t("Analytics & optimization")}:</b>{" "}
+                <b>{t(" Sicherheits- & Funktionsmodule")}:</b>{" "}
                 {t(
-                  "time series forecasts (load/production), peak shaving & schedule optimization (LP/MILP), anomaly detection"
+                  "Fahrzeug- und Domain-Security, Over-the-Air Updates, SoC/SoH-Algorithmen, Schutzlogiken, Watchdogs, Ereignis-/Fehlerprotokollierung, funktionale Sicherheit (ISO 26262)",
                 )}
               </span>
             </li>
@@ -85,7 +87,7 @@ const CoreIndustries = () => {
               <span>
                 <b>{t("Visualization & UI")}:</b>{" "}
                 {t(
-                  "modern web frontend (SPA/SSR), dashboards (energy/cost/CO₂)"
+                  "modern web frontend (SPA/SSR), dashboards (energy/cost/CO₂)",
                 )}
               </span>
             </li>
